@@ -1,0 +1,6 @@
+#将 3rdparty 目录添加到项目的包含路径中，以便在编译时可以找到该目录下的头文件。
+INCLUDEPATH += 3rdparty
+#分别引入了 QXlsx 和 QsLog 项目中的 .pri 文件，包含了相关项目的构建配置和其他信息。
+include($$PWD/QXlsx/QXlsx.pri)
+include($$PWD/QsLog/QsLog.pri)
+
